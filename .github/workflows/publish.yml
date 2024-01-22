@@ -22,7 +22,7 @@ jobs:
 
       - name: 'Build and Push Docker Image'
         run: |
-          docker build . --tag ghcr.io/YoosoofsahA/my-nginx-image:latest
-          docker push ghcr.io/YoosoofsahA/my-nginx-image:latest
+          docker build . --tag ghcr.io/yoosoofsaha/my-nginx-image:latest
+          docker push ghcr.io/yoosoofsaha/my-nginx-image:latest
 
 
